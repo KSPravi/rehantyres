@@ -19,7 +19,10 @@ $(".service-carousel").owlCarousel({
   autoplay: true,
   autoplayTimeout: 4000,
   smartSpeed: 2500,
-  navText: ["", ""],
+  navText: [
+    "<img src='images/arrow.svg' alt='Prev'>",
+    "<img src='images/arrow.svg' alt='Next'>",
+  ],
 });
 $(window).on("load", function () {
   jQuery(".preloader").fadeOut("slow", function () {});

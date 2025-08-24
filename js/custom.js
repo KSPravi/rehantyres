@@ -20,8 +20,8 @@ $(".service-carousel").owlCarousel({
   autoplayTimeout: 4000,
   smartSpeed: 2500,
   navText: [
-    "<img src='../images/arrow.svg' alt='Prev'>",
-    "<img src='../images/arrow.svg' alt='Next'>",
+    "<img src='/images/arrow.svg' alt='Prev'>",
+    "<img src='/images/arrow.svg' alt='Next'>",
   ],
 });
 $(window).on("load", function () {
